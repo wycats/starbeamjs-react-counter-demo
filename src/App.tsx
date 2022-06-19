@@ -1,14 +1,5 @@
-import { useState } from 'react';
-import viteLogo from '/vite.svg';
-import reactLogo from './assets/react.svg';
 import './App.css';
-import { useStarbeam, reactive, Cell } from './vendor/starbeam-react.js';
-
-interface Person {
-  id: string;
-  name: string;
-  location: string;
-}
+import { useStarbeam, Cell } from './vendor/starbeam-react.js';
 
 function App() {
   return useStarbeam(() => {
