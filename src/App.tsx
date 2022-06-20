@@ -1,5 +1,6 @@
 import './App.css';
-import { useStarbeam, Cell } from './vendor/starbeam-react.js';
+import { useStarbeam } from '@starbeam/react';
+import { Cell } from '@starbeam/core';
 
 function App() {
   return useStarbeam(() => {
