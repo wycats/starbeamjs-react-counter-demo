@@ -1,9 +1,9 @@
 import './App.css';
-import { useStarbeam } from '@starbeam/react';
+import { useReactiveSetup } from '@starbeam/react';
 import { Cell } from '@starbeam/core';
 
 function App() {
-  return useStarbeam(() => {
+  return useReactiveSetup(() => {
     const counter = Cell(0);
 
     return () => (
