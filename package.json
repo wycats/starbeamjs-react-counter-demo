@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@starbeam/core": "^0.6.0",
-    "@starbeam/react": "^0.6.0",
+    "@starbeam/core": "^0.8.9",
+    "@starbeam/react": "^0.8.9",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
